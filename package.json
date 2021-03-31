@@ -1,0 +1,21 @@
+{
+  "name": "climaapp",
+  "version": "1.0.0",
+  "description": "Aplicacion de consulta geologica de ciudades",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -I index.js"
+  },
+  "author": "Nestor Edrev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "inquirer": "^8.0.0",
+    "mongoose": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
